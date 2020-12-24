@@ -1,0 +1,25 @@
+{
+    "name": "free-abrams/functions",
+    "description": "my function cellection",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "free-abrams",
+            "email": "sa130494625@126.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2.0",
+        "laravel":">=6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FreeAbrams\\Functions\\": "src/"
+        }
+    }
+}
